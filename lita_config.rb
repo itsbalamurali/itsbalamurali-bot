@@ -1,7 +1,7 @@
 Lita.configure do |config|
   # The name your robot will use.
   config.robot.name = "Sam"
-
+  config.robot.mention_name = "sam"
   # The severity of messages to log. Options are:
   # :debug, :info, :warn, :error, :fatal
   # Messages at the selected level and above will be logged.
@@ -21,8 +21,8 @@ Lita.configure do |config|
   # config.adapter.password = "secret"
 
   ## Example: Set options for the Redis connection.
-  config.redis.host = ENV["REDISTOGO_URL"]
-  config.redis.port = ENV["PORT"]
+  config.redis.host = ENV["REDISCLOUD_URL"]
+  #config.redis.port = ENV["PORT"]
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
