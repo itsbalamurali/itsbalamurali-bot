@@ -1,0 +1,66 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    daemons (1.1.9)
+    eventmachine (1.0.3)
+    faraday (0.8.8)
+      multipart-post (~> 1.2.0)
+    lita (2.7.1)
+      bundler (>= 1.3)
+      faraday (>= 0.8.7)
+      multi_json (>= 1.7.7)
+      rack (>= 1.5.2)
+      redis-namespace (>= 1.3.0)
+      thin (>= 1.5.1)
+      thor (>= 0.18.1)
+    lita-coin (0.0.2)
+      lita (~> 2.3)
+    lita-console (0.0.1)
+      lita (~> 2.2)
+    lita-excuses (0.0.3)
+      lita (~> 2.2)
+      nokogiri
+    lita-giphy (1.0.1)
+      lita (~> 2.0)
+    lita-google-images (1.0.3)
+      lita (~> 2.0)
+    lita-karma (2.0.1)
+      lita (~> 2.6)
+    lita-likeaboss (1.0.1)
+      lita (~> 2.0)
+    lita-urban-dictionary (0.0.3)
+      lita (~> 2.1)
+    lita-xkcd (0.0.3)
+      lita (~> 2.2)
+    lita-youtube (0.0.3)
+      lita (~> 2.6)
+    mini_portile (0.5.2)
+    multi_json (1.8.2)
+    multipart-post (1.2.0)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
+    rack (1.5.2)
+    redis (3.0.6)
+    redis-namespace (1.4.1)
+      redis (~> 3.0.4)
+    thin (1.6.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 1.0.0)
+      rack (>= 1.0.0)
+    thor (0.18.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  lita
+  lita-coin
+  lita-console
+  lita-excuses
+  lita-giphy
+  lita-google-images
+  lita-karma
+  lita-likeaboss
+  lita-urban-dictionary
+  lita-xkcd
+  lita-youtube
