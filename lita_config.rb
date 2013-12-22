@@ -1,6 +1,6 @@
 Lita.configure do |config|
   # The name your robot will use.
-  config.robot.name = "Balu"
+  config.robot.name = "Sam"
 
   # The severity of messages to log. Options are:
   # :debug, :info, :warn, :error, :fatal
